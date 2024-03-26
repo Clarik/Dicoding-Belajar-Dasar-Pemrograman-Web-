@@ -1,0 +1,216 @@
+
+button{
+    font-size: 1.4vmax;
+    padding: 1vmax 1.5vmax;
+    letter-spacing: 0.2rem;
+    color: #7c4f7c;
+    border: none;
+    border-radius: 0.3em;
+}
+
+.body_home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background-color: #adcec6;
+    border-radius: 1em;
+}
+
+.body_home_content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    width: 50%;
+    padding: 1vw;
+}
+
+.game_motto{
+    font-size: 1.6rem;
+}
+
+.body_home_content_information {
+    padding-left: 0.3rem;
+}
+
+.body_home_content_image_container{
+    padding-right: 0.3rem;
+}
+
+.body_home_content div img {
+    width: 100%;
+}
+
+.body_slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sliderContainer {
+    display: flex;
+    position: relative;
+}
+
+#slider {
+    position: relative;
+    width: 60vw;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+#slide{
+    position: relative;
+}
+
+#slide img{
+    display: flex;
+    width: 60vw;
+    position: relative;
+}
+
+#slides {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+
+.body_home_content_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.character_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.character_content {
+    padding:0vmax 3vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.character_info{
+    position: relative;
+}
+
+.character_img img {
+    width: 100%;
+}
+
+.character_img img:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.btn{
+    margin-top: 4vh;
+    background-color: rgb(125, 179, 196);
+}
+
+#play_btn{
+    background-color: #BF1363;
+    font-size: 1.7vmax;
+    margin-bottom: 15vh;
+    transition: 0.3s;
+}
+
+#view_more_button:hover, #play_btn:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+#play_btn:active{
+    background-color: #ff2b8e;
+}
+
+
+
+
+@media only screen and (max-width: 800px) 
+{
+    .body_home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .body_home_content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        width: inherit;
+        padding: 2vw 2vw;
+    }
+
+    .body_home_content_information {
+        padding: 0;
+    }
+
+    .body_home_content_image_container{
+        padding: 0;
+    }
+
+    
+    .body_home_content div img {
+        width: 100%;
+    }
+    
+    .character_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 50vw;
+    }
+
+    .character_content {
+        padding:0vmax 3vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-bottom: 5vw;
+    }
+    
+    b{
+        font-size: 8vw;
+    }
+
+    h1{
+        font-size: 8vw;
+    }
+
+    h2{
+        font-size: 7vw;
+    }
+
+    p{
+        font-size: 5vw;
+    }
+
+    .bold {
+        font-size: 5vw;
+    }
+
+}
+
